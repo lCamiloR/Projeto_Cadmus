@@ -34,9 +34,9 @@ def main():
 
     file_helper = lib.FileHelper
 
-    # Procura arquivos de carga
     while True:
         
+        # Procura arquivos de carga
         try:
             new_mail_json = file_helper(fr"{src_folder}\SEND_MAIL\Entrance").get_oldest("*.json")
         except lib.NoFileFound:
