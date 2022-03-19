@@ -1,0 +1,14 @@
+{
+    "SENDER_CREDENTIALS":{
+       "address":null,
+       "password":null
+    },
+    "MESSAGE":{
+       "subject":"",
+       "to":[
+          
+       ],
+       "body":""
+    },
+    "EXPECTED_SHEET_NAME":""
+ }
