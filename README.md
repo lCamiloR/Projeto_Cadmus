@@ -1,7 +1,7 @@
 # Projeto_Cadmus
 Projeto referente ao processo seletivo Cadmus.
 
-O robô consiste no monitoramento do diretório "\src\SEND_MAIL\Entrance" por arquivos .json, que devem conter as informações necessárias para sua produção:
+O robô consiste no monitoramento do diretório "\src\SEND_MAIL\Entrance" por arquivos JSON, que devem conter as informações necessárias para sua produção:
   * Credenciais da conta de envio (Necessáriamente uma conta do Gmail);
   * Assunto do e-mail;
   * Destinatários (Lista de e-mails);
