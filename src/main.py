@@ -27,9 +27,6 @@ src_folder = os.getcwd()[:os.getcwd().find("src") + 3]
 # # MAIN
 # Este bloco é responsável por executar o robô.
 
-# In[16]:
-
-
 def main():
 
     file_helper = lib.FileHelper
@@ -80,9 +77,6 @@ def main():
 
 # ## [Func] create_file_name()
 
-# In[13]:
-
-
 def create_file_name(expected_name:str) -> str:
 
     if not expected_name:
@@ -98,8 +92,6 @@ def create_file_name(expected_name:str) -> str:
 
 
 # ## [Func] get_todays_job_offers()
-
-# In[14]:
 
 
 def get_todays_job_offers(*, timeout=60) -> dict:
@@ -167,8 +159,6 @@ def get_todays_job_offers(*, timeout=60) -> dict:
 
 # ## [Class] send_email()
 
-# In[15]:
-
 
 class Email:
 
@@ -193,9 +183,6 @@ class Email:
     
     def disconect(self):
         self.smtp.close()
-
-
-# In[ ]:
 
 
 if __name__ == '__main__':
